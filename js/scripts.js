@@ -21,3 +21,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
+
+function redirect(select) {
+  window.document.location.href = "/" + select.value;
+}

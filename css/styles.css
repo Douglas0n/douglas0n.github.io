@@ -4233,7 +4233,22 @@ fieldset:disabled .btn {
   pointer-events: none;
   cursor: default;
 }
-
+#language-picker-select {
+  background-color: #dee2e6;
+  color: #343a40;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+#language-picker-select:hover,
+#language-picker-select:focus {
+  border-color: #e9ecef #e9ecef #dee2e6;
+  isolation: isolate;
+}
+#language-picker-select.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
 }
@@ -4323,6 +4338,7 @@ fieldset:disabled .btn {
   align-items: center;
   justify-content: space-between;
 }
+
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -4349,6 +4365,10 @@ fieldset:disabled .btn {
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.navbar-lang {
+  font-size: 0.8rem;
 }
 
 .navbar-collapse {
