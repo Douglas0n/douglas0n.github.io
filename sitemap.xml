@@ -2,13 +2,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
-		<loc>https://douglas0n.co/en-US/</loc>
-		<xhtml:link rel="alternate" hreflang="en-us" href="https://douglas0n.co/en-US/" />
-		<xhtml:link rel="alternate" hreflang="pt-br" href="https://douglas0n.co/pt-BR/" />
+		<loc>https://douglas0n.co/en-us/</loc>
+		<xhtml:link rel="alternate" hreflang="en-us" href="https://douglas0n.co/en-us/" />
+		<xhtml:link rel="alternate" hreflang="pt-br" href="https://douglas0n.co/pt-br/" />
 	</url>
 	<url>
-		<loc>https://douglas0n.co/pt-BR/</loc>
-		<xhtml:link rel="alternate" hreflang="en-us" href="https://douglas0n.co/en-US/" />
-		<xhtml:link rel="alternate" hreflang="pt-br" href="https://douglas0n.co/pt-BR/" />
+		<loc>https://douglas0n.co/pt-br/</loc>
+		<xhtml:link rel="alternate" hreflang="en-us" href="https://douglas0n.co/en-us/" />
+		<xhtml:link rel="alternate" hreflang="pt-br" href="https://douglas0n.co/pt-br/" />
 	</url>
 </urlset>
