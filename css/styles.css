@@ -11824,3 +11824,10 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.img-company {
+  max-width: 4rem;
+  max-height: 4rem;
+  margin: none;
+  border: none;
+}
