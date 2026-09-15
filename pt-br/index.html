@@ -8,7 +8,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="Software Engineer | Douglas Alves" />
+    <meta
+      name="description"
+      content="Engenheiro de Infraestrutura e DevOps especializado em Kubernetes (EKS), Terraform e AWS. Construção de plataformas cloud-native para healthtech."
+    />
     <meta name="author" content="Douglas Alves Venancio" />
     <meta
       name="keywords"
@@ -35,7 +38,7 @@
     <meta property="og:title" content="Douglas Alves" />
     <meta
       property="og:description"
-      content="Software engineer | Douglas Alves"
+      content="Engenheiro de Infraestrutura e DevOps especializado em Kubernetes (EKS), Terraform e AWS. Construção de plataformas cloud-native para healthtech."
     />
     <meta
       property="og:image"
@@ -48,13 +51,13 @@
     <meta name="twitter:title" content="Douglas Alves" />
     <meta
       name="twitter:description"
-      content="Software engineer | Douglas Alves"
+      content="Engenheiro de Infraestrutura e DevOps especializado em Kubernetes (EKS), Terraform e AWS. Construção de plataformas cloud-native para healthtech."
     />
     <meta
       name="twitter:image"
       content="https://opengraph.b-cdn.net/production/documents/98f5b1ee-fdfd-41ca-b8f4-55967ec2d820.jpg?token=TRAG2krMUNCrZdUINyQWW_EL3pxWZ8pi0izy1K0_rcY&height=599&width=777&expires=33241175436"
     />
-    <title>Douglas Alves</title>
+    <title>Douglas Alves Venancio | Engenheiro de Infraestrutura / DevOps</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script
@@ -174,11 +177,13 @@
             <a href="mailto:contact@douglas0n.co">contact@douglas0n.co</a>
           </div>
           <p class="lead mb-5">
-            Olá! Sou Douglas, engenheiro de software apaixonado por computação
-            em nuvem e desenvolvimento de software. Nos últimos anos, trabalhei
-            principalmente com transformação digital e inovação. Gosto de criar
-            produtos que tornam a vida mais fácil e produtiva! Até escrevi um
-            livro sobre desenvolvimento em React, publicado pela Packt.
+            Olá! Sou Douglas, engenheiro de Infraestrutura e DevOps. Hoje sou o
+            único responsável pela arquitetura completa de uma plataforma
+            healthtech em Kubernetes (EKS) na AWS — da rede ao disaster
+            recovery, tudo como código em Terraform. Antes disso, passei anos
+            como desenvolvedor fullstack, o que molda como penso
+            infraestrutura: sempre a partir do que trava (ou acelera) quem
+            entrega software todos os dias.
           </p>
           <div class="social-icons">
             <a
@@ -213,6 +218,15 @@
       <section class="resume-section" id="publications">
         <div class="resume-section-content">
           <h2 class="mb-5">Publicações</h2>
+          <h5 class="mb-4">
+            <a
+              href="https://dev.to/douglas0n/migrating-from-ingress-nginx-to-gateway-api-on-eks-m4p"
+              target="_blank"
+              rel="noopener"
+              >Migração de Ingress NGINX para Kubernetes Gateway API em EKS</a
+            >
+            · dev.to
+          </h5>
           <h5>Enterprise React Development with UmiJS · Packt Publishing</h5>
           <iframe
             type="text/html"
@@ -237,7 +251,7 @@
           >
             <div class="flex-grow-1">
               <h3 class="mb-0">
-                Arquiteto de Software&nbsp;
+                Arquiteto DevOps&nbsp;
                 <img
                   class="img-fluid img-company mx-auto mb-2"
                   src="../assets/img/infinity.png"
@@ -248,22 +262,39 @@
               <ul class="fa-ul mb-0">
                 <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Evolui a estabilidade e conformidade dos sistemas,
-                  implementando melhores práticas em arquitetura de soluções na
-                  AWS, incluindo arquitetura de frontends, arquitetura de
-                  microserviços com Kubernetes e gestão de acessos com IAM
-                  Identity Center.
+                  Projetei e construí do zero, como único responsável de
+                  infraestrutura, a arquitetura completa da plataforma em
+                  Kubernetes (EKS) na AWS — frontends, filas, rede, backups e
+                  conta de disaster recovery — com 100% da infraestrutura
+                  versionada em Terraform.
                 </li>
                 <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Estruturei a gestão de contas da nossa organização, atuando na
-                  redução de custos e parcerias estratégias com a AWS.
+                  Implementei AWS IAM Identity Center como plano único de
+                  identidade, federando SSO com Datadog, GitHub e SonarQube.
                 </li>
                 <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Fui referência técnica para um time de 8 desenvolvedores no
-                  uso de serviços da AWS e na implementação de melhores práticas
-                  como OAuth 2.0, testes automatizados e entregas contínuas.
+                  Construí pipelines de CI/CD no GitHub Actions integrados a
+                  uma instância de SonarQube self-hosted rodando no próprio
+                  cluster EKS.
+                </li>
+                <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Migrei o roteamento de tráfego do cluster EKS de Ingress
+                  NGINX para Kubernetes Gateway API, padronizando a exposição
+                  de serviços via Terraform.
+                </li>
+                <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Liderei a consolidação de contas AWS e a migração de
+                  workloads como iniciativa de otimização de custos.
+                </li>
+                <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Conduzi exercício de hardening de segurança pré-teste de
+                  intrusão, identificando SSH exposto em ambientes de
+                  desenvolvimento e um possível subdomain takeover.
                 </li>
               </ul>
               <p></p>
@@ -278,7 +309,7 @@
           >
             <div class="flex-grow-1">
               <h3 class="mb-0">
-                Engenheiro de Software (DevOps Team)&nbsp;
+                Engenheiro DevOps&nbsp;
                 <img
                   class="img-fluid img-company mx-auto mb-2"
                   src="../assets/img/einstein.svg"
@@ -289,22 +320,16 @@
               <ul class="fa-ul mb-0">
                 <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Implementei os processos de integração e entrega contínua,
-                  melhorando assim a experiência do desenvolvedor e agilidade
-                  das entregas.
+                  Contribuí para a evolução da plataforma de produtos digitais
+                  para o modelo SaaS multi-tenant, ampliando o atendimento de
+                  um único hospital para múltiplos clientes B2B do setor de
+                  saúde.
                 </li>
                 <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Também, em parceria com os times de desenvolvimento e
-                  operações do hospital, evoluimos nossa plataforma de produtos
-                  digitais para o modelo SaaS, aumentando nossa base de
-                  clientes.
-                </li>
-                <li>
-                  <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Reduzimos nosso custo operacional e ganhamos agilidade nas
-                  entregas com a configuração de tenants via pipeline e
-                  implementando boas praticas do well-architected framework.
+                  Configurei provisionamento de tenants via pipeline,
+                  aplicando práticas do AWS Well-Architected Framework para
+                  reduzir custo e aumentar a eficiência do modelo SaaS.
                 </li>
               </ul>
               <p></p>
@@ -330,22 +355,15 @@
               <ul class="fa-ul mb-0">
                 <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Como referência técnica em diversos projetos em parceria com a
-                  AWS, entreguei soluções para grandes empresas do mercado
-                  brasileiro.
+                  Integrei o sistema de suporte da Caixa Econômica Federal à
+                  nuvem da RedHat e personalizei o software BIM360 para a
+                  Bombril.
                 </li>
                 <li>
                   <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Minhas contribuições incluem a integração do sistema de
-                  suporte da Caixa Econômica com a nuvem da RedHat e a
-                  personalização do software BIM360 para Bombril.
-                </li>
-                <li>
-                  <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Projetei, desenvolvi e mantive sistemas baseados em nuvem e
-                  integrações, apoiando o time de desenvolvedores no uso de
-                  serviços em nuvem da AWS e padrões de segurança como OAuth
-                  2.0.
+                  Projetei, desenvolvi e mantive sistemas e integrações
+                  baseados em nuvem, apoiando o time de desenvolvimento no uso
+                  de serviços AWS e padrões de segurança como OAuth 2.0.
                 </li>
               </ul>
             </div>
@@ -424,16 +442,31 @@
             Linguagens de programação & ferramentas
           </div>
           <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fas fa-cubes"></i></li>
+            <li class="list-inline-item"><i class="fas fa-dharmachakra"></i></li>
+            <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+            <li class="list-inline-item"><i class="fab fa-github"></i></li>
+            <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+            <li class="list-inline-item">
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                width="0.9em"
+                height="0.9em"
+                fill="currentColor"
+                style="vertical-align: -0.05em"
+              >
+                <title>Google Cloud</title>
+                <path
+                  d="M12.19 2.38a9.344 9.344 0 0 0-9.234 6.893c.053-.02-.055.013 0 0-3.875 2.551-3.922 8.11-.247 10.941l.006-.007-.007.03a6.717 6.717 0 0 0 4.077 1.356h5.173l.03.03h5.192c6.687.053 9.376-8.605 3.835-12.35a9.365 9.365 0 0 0-2.821-4.552l-.043.043.006-.05A9.344 9.344 0 0 0 12.19 2.38zm-.358 4.146c1.244-.04 2.518.368 3.486 1.15a5.186 5.186 0 0 1 1.862 4.078v.518c3.53-.07 3.53 5.262 0 5.193h-5.193l-.008.009v-.04H6.785a2.59 2.59 0 0 1-1.067-.23h.001a2.597 2.597 0 1 1 3.437-3.437l3.013-3.012A6.747 6.747 0 0 0 8.11 8.24c.018-.01.04-.026.054-.023a5.186 5.186 0 0 1 3.67-1.69z"
+                ></path>
+              </svg>
+            </li>
+            <li class="list-inline-item"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item"><i class="fab fa-linux"></i></li>
             <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
             <li class="list-inline-item"><i class="fab fa-react"></i></li>
             <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-            <li class="list-inline-item"><i class="fab fa-less"></i></li>
-            <li class="list-inline-item"><i class="fab fa-python"></i></li>
-            <li class="list-inline-item"><i class="fab fa-aws"></i></li>
-            <li class="list-inline-item"><i class="fab fa-github"></i></li>
-            <li class="list-inline-item"><i class="fab fa-linux"></i></li>
             <li class="list-inline-item"><i class="fab fa-npm"></i></li>
           </ul>
           <div class="subheading mb-3">Workflow</div>
@@ -444,15 +477,15 @@
             </li>
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              Desenvolvimento Full-Stack
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
               Times Multifuncionais
             </li>
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
               Desenvolvimento Ágil & Scrum
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Desenvolvimento Full-Stack
             </li>
           </ul>
         </div>
